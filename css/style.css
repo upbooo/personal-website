@@ -2,17 +2,56 @@
   padding: 0px 5px 0px 5px;
 }
 
+.fa-github, .fa-twitter, .fa-facebook {
+  font-size: 35px;
+  padding: 0px 30px 0px 30px;
+}
+
 .fa-github {
-  font-size: 24px;
   color: black;
+  border-right: 1px solid #000;
 }
 
 .fa-twitter {
-  font-size: 24px;
   color: #00acee;
 }
 
 .fa-facebook {
-  font-size: 24px;
   color: #3b5998;
+  border-left: 1px solid #000;
+}
+
+.social-media {
+  text-align: center;
+  margin: 50px 0px 0px 0px;
+}
+
+.email, .vcard {
+  font-size: 20px;
+}
+
+.email p, .contact p {
+  margin-bottom: 5px;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .email p {
+    margin-bottom: 0px;
+  }
+
+  .container {
+    position: relative;
+  }
+
+  .social-media {
+    position: absolute;
+    top: 500px;
+    left: 500px;
+  }
+
+  .fa-github, .fa-twitter, .fa-facebook {
+    font-size: 25px;
+    padding: 0px 30px 0px 30px;
+  }
 }

@@ -1,0 +1,9 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Toan Nguyen
+N:Nguyen;Toan;;;
+EMAIL;TYPE=INTERNET;TYPE=WORK:tnguyen@upbooo.com
+TEL;TYPE=CELL:+84 888539072
+item1.URL:https\://upbooo.com
+item1.X-ABLabel:_$!<HomePage>!$_
+END:VCARD
