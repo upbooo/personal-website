@@ -32,6 +32,7 @@ h1, h2, h3, h4 {
 .title-name {
   color: white;
   font-weight: bold;
+  font-size: 35px;
 }
 
 .section-col {
@@ -44,7 +45,7 @@ h1, h2, h3, h4 {
 }
 
 .fa-github, .fa-twitter, .fa-facebook {
-  font-size: 20px;
+  font-size: 25px;
   padding: 0px 30px 0px 30px;
 }
 
@@ -126,12 +127,6 @@ h1, h2, h3, h4 {
   font-weight: bold;
 }
 
-@media only screen and (max-width: 768px) {
-  .title-name {
-    font-size: 35px;
-  }
-}
-
 @media only screen and (min-width: 768px) {
   /* For desktop: */
   body {
@@ -140,6 +135,10 @@ h1, h2, h3, h4 {
       rgba(0, 0, 0, 0),
       rgba(0, 0, 0, 0.6)
     ), url('../images/desktop-background.jpg');
+  }
+
+  .title-name {
+    font-size: 50px;
   }
 
   .email p {
@@ -179,5 +178,9 @@ h1, h2, h3, h4 {
     color: black;
     background-color: white;
     transition: 0.2s;
+  }
+
+  .fa-github, .fa-twitter, .fa-facebook {
+    font-size: 30px;
   }
 }
