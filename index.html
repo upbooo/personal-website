@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- style -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.min.css">
 
     <!-- favicon -->
     <link rel="icon" href="images/favicon.png" sizes="32x32">
@@ -21,7 +21,7 @@
   </head>
   <body>
     <div class="container my-5">
-      <h1><i class="fa fa-code"></i> Toan Nguyen</h1>
+      <h1 class="title-name"><i class="fa fa-code"></i> Toan Nguyen</h1>
       <p class="lead">
         I'd like to build outstanding websites' UI/UX.
       </p>
@@ -31,10 +31,10 @@
       <nav>
         <ul class="nav nav-pills my-5">
           <li class="nav-item">
-            <a class="nav-link active" href="https://upbooo.com">About Me</a>
+            <a class="my-nav-text nav-link active" href="https://upbooo.com">About Me</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact">Contact Me</a>
+            <a class="my-nav-text nav-link" href="contact">Contact Me</a>
           </li>
         </ul>
       </nav>
@@ -43,28 +43,38 @@
     <div class="container mt-5">
       <div class="row">
         <div class="col">
-          <h3 class="mb-3">Education</h3>
-          <div class="card mb-3">
-            <div class="card-body">
-              <h4>University of Greenwich</h4>
+          <h3 class="my-section-text section-col mb-3">Education</h3>
+          <div class="mb-3">
+            <div class="text-box card-body">
+              <h4 class="section-title">University of Greenwich</h4>
               <div>
-                <strong>2018 - Present</strong>
-                 - B.S. in Computer Science
+                2018 - Present - B.S. in Computer Science
               </div>
             </div>
           </div>
-          <h3 class="mb-3">Projects</h3>
-          <div class="card mb-3">
-            <div class="card-body">
+          <h3 class="my-section-text section-col mb-3">Projects</h3>
+          <div class="mb-3">
+            <div class="text-box card-body">
               <ul>
-                <li><a href="webdev" target="_blank">WebDevPro</a> (First static webpage written in HTML & CSS)</li>
-                <li><a href="h2m" target="_blank">Hash2Mag</a>, <a href="tl" target="_blank">Timestamp Generator</a> (Some utilities written in JavaScript)</li>
+                <li><a class="section-text" href="webdev" target="_blank">WebDevPro</a> (First static webpage written in HTML & CSS)</li>
+                <li>
+                  <a class="section-text" href="h2m" target="_blank">Hash2Mag</a>, <a class="section-text" href="tl" target="_blank">Timestamp Generator</a>
+                  (Some utilities written in JavaScript)
+                </li>
               </ul>
             </div>
           </div>
         </div>
       </div>
+      <div class="social-media">
+        <p>
+          <a href="https://github.com/upbooo" target="_blank"><i class="fa fa-github"></i></a>
+          <a href="https://twitter.com/upbooo" target="_blank"><i class="fa fa-twitter"></i></a>
+          <a href="https://facebook.com/upbooo" target="_blank"><i class="fa fa-facebook"></i></a>
+        </p>
+      </div>
     </div>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
