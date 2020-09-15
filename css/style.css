@@ -4,8 +4,7 @@
 * {
   font-family: Karla, monospace;
   color: white;
-  font-size: 15px;
-  white-space: 120%;
+  font-size: 18px;
 }
 
 body {
@@ -79,25 +78,25 @@ h1, h2, h3, h4 {
 }
 
 .my-nav-text {
-  color: #CEF5C6;
+  color: white;
 }
 
 .my-nav-text:hover {
   text-decoration: none;
-  color: #CEF5C6;
+  color: white;
 }
 
 .section-title {
-  color: #89FF47;
+  color: white;
 }
 
 .section-text {
-  color: #B3E675;
+  color: #FAE400;
 }
 
 .section-text:hover {
   text-decoration: none;
-  color: #B3E675;
+  color: #FAE400;
 }
 
 .text-box ul {
@@ -110,16 +109,16 @@ h1, h2, h3, h4 {
 }
 
 .contact-text {
-  color: #EDFFBA;
+  color: white;
 }
 
 .contact-text:hover {
   text-decoration: none;
-  color: #EDFFBA;
+  color: white;
 }
 
 .my-section-text {
-  color: #EBF563;
+  color: white;
   font-weight: bold;
 }
 
@@ -154,7 +153,7 @@ h1, h2, h3, h4 {
 
   .my-nav-text:hover {
     color: black;
-    background: #CEF5C6;
+    background: white;
     transition: 0.2s;
   }
 
