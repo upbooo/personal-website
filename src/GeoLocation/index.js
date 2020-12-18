@@ -13,7 +13,14 @@ const GeoLocation = () => {
 		<>
 			<div>
 				{getUserGeoLocationDetails()}
-				<div>{details && <h1>{details.IPv4}</h1>}</div>
+				<div>
+					{' '}
+					{details && (
+						<h1>
+							Hello {details.IPv4}, {details.country_name}
+						</h1>
+					)}
+				</div>
 			</div>
 		</>
 	);
