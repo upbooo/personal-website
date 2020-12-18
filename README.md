@@ -1,5 +1,7 @@
 # [upbooo.com](https://upbooo.com)
 
+![GitHub Action](https://github.com/upbooo/upbooo.github.io/workflows/upbooo%20CI/badge.svg)
+
 ## Installation
 
 ### Install packages
