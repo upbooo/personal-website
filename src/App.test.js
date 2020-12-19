@@ -1,4 +1,3 @@
-import { render, screen } from '@testing-library/react';
 import App from './App';
 import GeoLocation from './GeoLocation';
 import { configure, shallow } from 'enzyme';
