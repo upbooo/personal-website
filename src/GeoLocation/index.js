@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import FadeIn from 'react-fade-in';
 
 const GeoLocation = () => {
 	const [details, setDetails] = useState(null);
@@ -10,17 +11,10 @@ const GeoLocation = () => {
 	};
 
 	return (
-		<>
+		<FadeIn delay="500" transitionDuration="700">
 			<div>
 				{getUserGeoLocationDetails()}
-				<div
-					style={{
-						position: 'absolute',
-						left: '50%',
-						top: '50%',
-						transform: 'translate(-50%, -50%)',
-					}}
-				>
+				<div>
 					{' '}
 					{details && (
 						<h1>
@@ -29,7 +23,7 @@ const GeoLocation = () => {
 					)}
 				</div>
 			</div>
-		</>
+		</FadeIn>
 	);
 };
 
