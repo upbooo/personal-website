@@ -11,7 +11,7 @@ const GeoLocation = () => {
 	};
 
 	return (
-		<FadeIn delay="500" transitionDuration="700">
+		<FadeIn delay="600" transitionDuration="700">
 			<div>
 				{getUserGeoLocationDetails()}
 				<div>
